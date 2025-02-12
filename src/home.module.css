@@ -5,7 +5,7 @@
   margin: 20px 0; 
   height: 5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(39deg , rgb(128, 46, 5) 25%, rgb(177, 91, 15) 60%); ;
+  background-image: linear-gradient(39deg , rgb(128, 46, 5) 15%, rgb(152, 80, 18) 90%); ;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
@@ -15,16 +15,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: rgb(209, 191, 75);
+  color: rgb(208, 149, 31);
 }
 
 .home {
+  width: 100%;
   display: grid;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(39deg , rgb(128, 46, 5) 25%, rgb(177, 91, 15) 60%);
+  border-radius: 20px;
 }
 
 
@@ -32,6 +36,7 @@
   display: grid;
   grid-template-columns: repeat(5, 2fr);
   gap: 25px;
+
 
 }
 
